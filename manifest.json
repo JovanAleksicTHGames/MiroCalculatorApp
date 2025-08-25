@@ -2,10 +2,7 @@
   "name": "Sticky Note Calculator",
   "description": "Calculate sum or product of selected sticky notes with dynamic updates",
   "version": "1.0.0",
-  "developer": {
-    "name": "Calculator App Developer",
-    "email": "developer@example.com"
-  },
+  "author": "Calculator App Developer",
   "permissions": [
     "board:read",
     "board:write"
@@ -14,20 +11,16 @@
     "boards:read",
     "boards:write"
   ],
-  "supportedPlatforms": [
-    "desktop",
-    "web"
-  ],
-  "boardPlugin": {
-    "main": "index.html",
-    "icon24": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%232196f3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z'/%3E%3Cpath d='M15 5l3 3'/%3E%3C/svg%3E",
-    "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='%232196f3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z'/%3E%3Cpath d='M15 5l3 3'/%3E%3C/svg%3E"
+  "icons": {
+    "24": "https://your-netlify-site.netlify.app/icon-24.svg"
   },
-  "panelMode": {
-    "main": "index.html",
-    "height": 400
-  },
-  "settings": {
-    "autoStart": true
-  }
+  "sdkVersion": "SDK_V2",
+  "main": "https://your-netlify-site.netlify.app/",
+  "features": [
+    {
+      "type": "app_button",
+      "icon": "https://your-netlify-site.netlify.app/icon-24.svg",
+      "tooltip": "Sticky Note Calculator"
+    }
+  ]
 }
