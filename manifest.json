@@ -12,15 +12,16 @@
     "boards:write"
   ],
   "icons": {
-    "24": "https://your-netlify-site.netlify.app/icon-24.svg"
+    "24": "https://YOUR-ACTUAL-NETLIFY-URL.netlify.app/icon-24.svg"
   },
   "sdkVersion": "SDK_V2",
-  "main": "https://your-netlify-site.netlify.app/",
+  "main": "https://YOUR-ACTUAL-NETLIFY-URL.netlify.app/",
   "features": [
     {
       "type": "app_button",
-      "icon": "https://your-netlify-site.netlify.app/icon-24.svg",
+      "icon": "https://YOUR-ACTUAL-NETLIFY-URL.netlify.app/icon-24.svg",
       "tooltip": "Sticky Note Calculator"
     }
   ]
 }
+
